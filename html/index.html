@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soya Reads</title>
+    <link rel="icon" type="image/png" href="../assets/logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <!--Used some google fonts here-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Anton+SC&family=Freeman&family=Parkinsans:wght@300..800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Anton+SC&family=Freeman&family=Knewave&family=Parkinsans:wght@300..800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&family=Anton+SC&family=Freeman&family=Gabarito:wght@400..900&family=Knewave&family=Parkinsans:wght@300..800&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary bg-transparent custom-navbar " >
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">
+                <img src="../assets/logo.png" alt="Logo" width="50px">
+                <span class="logo-txt">Soya Reads Blog</span>
+            </a>
+              <button class="navbar-toggler togg-color" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="container"> <!--to center the list-->
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="log.html">Login</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="sign.html">Sign in</a>
+                      </li>
+                      <!--a drop down menu here because the Blog section contains 3 diff sections-->
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#Blog" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Blog
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#About">About</a></li>
+                          <li><a class="dropdown-item" href="#Reviews">Reviews</a></li>
+                          <li><a class="dropdown-item" href="#Recommendations">Recommendations</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#Contact">Contact</a>
+                      </li>
+                    
+                    </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <!--Introduction-->
+    <section id="intro">
+        <div class="container-lg text-center">
+            <div class="row justify-content-center align-items-center">
+              <div class="col-md-5 container-lg d-none d-md-block"> <!--here it shows on large screen but doesn't with small screens-->
+                <img src="../assets/bookshoppink.jpg" class="img-fluid" alt="Bookshop picture">
+              </div>
+              <div class="col-md-5 text-center ">
+                <h1 class="custom-heading">Hey there,<br>this is Soya!</h1>
+                <h6 class="custom-h6">Author and creator</h6>
+                <p class="custom-paragraph" > Welcome book lovers to my blog! <br> I’m more than thrilled to share my <br> passion towards books with the <br> likes of me. <br> If you want to learn more about <br> me, the blog, or you just want to <br> read my reviews: you're welcome <br>to create an account and join us!</p>
+                <a href="sign.html" class="btn btn-primary btn-lg custom-button">Sign in</a>
+                <a href="log.html" class="btn btn-primary btn-lg custom-button2">Login</a>
+              </div>
+            </div>
+        </div> 
+    </section>
+    
+
+    <!--Blog-->
+    <section id="Blog" class="bg-section" mt-5>
+      <!--Reading space-->
+          <div class="container-lg ">
+            <div class="text-center"><h2>Choose your reading space</h2></div>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+              <div class="col">
+                <div class="card text-center h-100">
+                  <img src="../assets/girl.jpg" class="card-img-top" alt="Girl reading">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold">About</h5>
+                    <p class="card-text">Learn about me, why I love reading and how I started writing a book blog. </p> <br>
+                    <a href="#About" class="btn custom-button">Learn more</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card text-center h-100">
+                  <img src="../assets/booksPile.jpg" class="card-img-top" alt="Pile of books">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold">Reviews</h5>
+                    <p class="card-text">Read about books I’ve read and my reviews.
+                      You can also access some reviews not mine that I liked.</p>
+                    <a href="#Reviews" class="btn custom-button">Learn more</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card text-center h-100">
+                  <img src="../assets/man.jpg" class="card-img-top" alt="Man looking for a book">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold">Recommendations</h5>
+                    <p class="card-text">Here are the books I’ve read and I think you should absolutely read.</p> <br>
+                    <a href="#Recommendations" class="btn custom-button">Learn more</a>
+                  </div>
+                </div>
+              </div>
+            
+            </div>
+          </div>
+
+    </section>
+
+    <!--About-->
+    <section id="About">
+      <div class="container-lg ">
+        <div class="row">
+          <div class="col-12 col-md">
+            <h3>Learn about me</h3>
+            <p>My name is not Soya, it’s close though. But I like privacy and therefore I won’t be using my name.
+              I’m 20 years old, from X country, city.
+              I’m currently studying software engineering and the journey is tough.
+              But hey, thanks to it I got to make my own book blog from scratch and it’s something I never imagined doing.</p>
+            <img src="../assets/books&blooms.jpg"  class="img-fluid" alt="">
+          </div>
+          <div class="col-12 col-md-6 ">
+            <div class="text-center" ><h3>Soya Reads Blog</h3></div>
+            <div class="text-center"><img src="../assets/buying books.jpg"  class="img-fluid" width="200px" alt=""></div>  <br>
+            <div class="text-center"><h3>Why do I love reading?</h3></div> <br>
+            <p>It started like most of you, a teenager girl never satisfied with a movie ending or a specific act so she discovers fanfics. <br>
+              A year or so later, she becomes way better in English and those fanfics became suddenly cringe so why not try a literal book right? <br>
+              And that was the trap! To make it simple, while reading I forget my world and I’m summoned into another (That I actually like)</p>
+          </div>
+          <div class="col-12 col-md">
+            <h3>How did I start this blog?</h3>
+            <p>Well this is funny. It was an assignment for one of my classes at college and the choice of the content and theme of the website was ours to make so I wanted to work on something that I love.  Therefore this blog.
+              The rest is history.</p>
+            <img src="../assets/logo.png" class="img-fluid" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Reviews-->
+    <section id="Reviews">
+  <div class="container-lg">
+       <!--Blurb Section-->
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-12 text-center">
+        <a href="https://www.goodreads.com/book/show/27883214-caraval"  target="_blank"><img src="../assets/caravalcover.jpg" class="img-fluid mb-3" alt="Caraval Book Cover"></a>
+        <h2 class="fw-bold">Caraval by Stephanie Garber</h2>
+        <h5 class="fw-bold text-start">Blurb</h5>
+        <p class="text-start">
+          A legendary competition. <br>
+          A mesmerizing romance. <br>
+          An unbreakable bond between two sisters.<br><br>
+          Scarlett Dragna has never left the tiny island where she and her sister, Tella, live with their powerful and cruel father. Now Scarlett’s father has arranged a marriage for her, and Scarlett thinks her dreams of seeing Caraval—the faraway, once-a-year performance where the audience participates in the show—are over.<br><br>
+          But this year, Scarlett’s long-dreamt-of invitation finally arrives. With the help of a mysterious sailor, Tella whisks Scarlett away to the show. Only, as soon as they arrive, Tella is kidnapped by Caraval’s mastermind organizer, Legend. It turns out that this season’s Caraval revolves around Tella, and whoever finds her first is the winner...
+          Scarlett has been told that everything that happens during Caraval is only an elaborate performance. Nevertheless she becomes enmeshed in a game of love, heartbreak, and magic. And whether Caraval is real or not, Scarlett must find Tella before the five nights of the game are over or a dangerous domino effect of consequences will be set off, and her beloved sister will disappear forever.
+          Welcome, welcome to Caraval . . . beware of getting swept too far away.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!--Main Content Section-->
+  <div class="container-lg">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="fw-bold">Caraval by Stephanie Garber</h2>
+        <p>Hello lovely readers, how’s your day going? I know I’m a little behind the times on this one, but if you haven’t read the absolute fantasy phenomenon that is *Caraval* yet, then this review is for you.</p>
+        <p>First thing I’d like to say is that it’s a dreamy, enchanting fantasy romance, but just like the game, it has sharp edges and dark corners, and getting swept away could be dangerous...</p>
+      </div>
+    </div>
+
+    <!--Main Characters Section-->
+    <div class="row mt-4 text-center">
+      <h5 class="fw-bold"><span class="main-characters">Main characters:</span></h5>
+      <div class="col-6 col-md-3">
+        <img src="../assets/scarlett.jpg" class="img-fluid rounded mb-2" alt="Scarlett Dragna">
+        <p class="fw-bold"><span class="main-characters">Scarlett Dragna</span></p>
+      </div>
+      <div class="col-6 col-md-3">
+        <img src="../assets/tella.jpg" class="img-fluid rounded mb-2" alt="Donatella Dragna">
+        <p class="fw-bold"><span class="main-characters">Donatella Dragna</span></p>
+      </div>
+      <div class="col-6 col-md-3">
+        <img src="../assets/julian.jpg" class="img-fluid rounded mb-2" alt="Julian Santos">
+        <p class="fw-bold"><span class="main-characters">Julian Santos</span></p>
+      </div>
+      <div class="col-6 col-md-3">
+        <img src="../assets/legend2.jpg" class="img-fluid rounded mb-2" alt="Legend">
+        <p class="fw-bold"><span class="main-characters">Legend</span></p>
+      </div>
+      
+    </div>
+    <div class="row">
+      <div class="col-12 ">
+        <p>I’d been meaning to read Caraval for years, I’d only heard good things about it, but I never got around to picking it up. Until I spotted it on the shelf at my mobile library and thought, it’s time. Now, I wish I’d read it sooner! And I’ve put a hold on the next two books in the series, so they’ll be arriving the next time the library comes around, and I can’t wait. <br>
+<br>
+          I’d describe Caraval as a cross between The Night Circus and Alice in Wonderland, with a hint of Stalking Jack the Ripper mixed in (yes, it’s dark under the glittering surface). There are some very serious topics touched on, including abusive parents, kidnap, torture, murder, suicide, manipulation and coercive control. But they add a depth to the story that is very much needed, and takes it from being a pretty book with flowery prose and exquisite descriptions, to a deeply fascinating, gripping and moving book about the bond between two sisters and the lengths they’ll go to to protect each others.</p>
+        <p>No one is who they seem in Caraval, that much is made clear many times throughout the story, from the warning at the beginning of the game, to Julian’s constant reminders that Scarlett shouldn’t trust anyone she meets, to the mysterious Master Legend. The true extent of this isn’t fully revealed until the very end of the book, when twists I had not seen coming were exposed, but the hints and foreshadowing were there, so I did find the ending mostly satisfying (aside from a couple of threads left hanging for books two and three). And I’ve been played as much as Scarlett was. No joke.
+          I loved Scarlett and I admit that I’m biased a lot because I think she resembles me in a way I don’t understand. She looks for a way to get herself and her sister, Tella, away from their violent and despicable father, she chases after Tella and actively decides to stay at Caraval and search for her, and she does spend most of the book making decisions and doing things towards her goal, she was the honest and loyal type. <br> <br>
+          
+          Julian was a dream book boyfriend, handsome and rogue-ish, pushing Scarlett away for her own protection with one hand, and pulling her towards him when he couldn’t fight his feelings with the other. The whole romantic subplot is completely swoon worthy and filled with its own twists and turns that make it that much more convincing and delicious. <br> <br>
+          
+          I loved the back story of Legend and the whole basis for this years game, and I’m intrigued to see how books two and three will follow this up. Sort of like The Hunger Games, where you think we’ve seen the games now, how can the sequel beat that? And then Catching Fire comes along and knocks book one right off its perch (for me, anyway). I’m hoping Legend will be a similarly triumphant experience.
+          All in all, I give Caraval five stars, but I’m expecting the rest of the series NOT to top it. Either way, I loved every minute, I read it fast (and I’m traditionally a slow reader) and I cannot wait to get back to the world and the characters Garber has created.</p>
+        <p class="fw-bold"> Review: 5 Stars</p>
+        <p class="fw-bold"> Coming next: Legendary (Caraval #2) By Stephanie Garber</p>
+
+        
+      </div>
+    </div>
+  </div>
+
+    </section>
+
+    <!--Recommendation-->
+    <section id="Recommendations">
+      <div class="container-lg">
+        <div class="text-center"><h2>What I think you should read next:</h2></div> <br>
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <a href="https://www.goodreads.com/book/show/62926938-the-seven-year-slip" target="_blank"><img src="../assets/sevenYearSlip.jpg" class="d-block w-100" alt="..."></a>
+              <div class="carousel-caption d-none d-md-block">
+                <!--adding a link on pictures so that it takes the user to the GoodReads page of the book-->
+              </div>
+            </div>
+            <div class="carousel-item">
+              <a href="https://www.goodreads.com/book/show/199261152-a-novel-love-story?ref=nav_sb_ss_1_12" target="_blank"><img src="../assets/novelLoveStory.jpg" class="d-block w-100" alt="..."></a>
+              <div class="carousel-caption d-none d-md-block">
+                
+              </div>
+            </div>
+            <div class="carousel-item">
+              <a href="https://www.goodreads.com/book/show/123257687-assistant-to-the-villain?ref=nav_sb_ss_1_13" target="_blank"><img src="../assets/assistantTotheVillain.jpg" class="d-block w-100" alt="..."></a>
+              <div class="carousel-caption d-none d-md-block">
+                
+              </div>
+            </div>
+            <div class="carousel-item">
+              <a href="https://www.goodreads.com/book/show/44421460-before-the-coffee-gets-cold?ref=nav_sb_ss_1_12" target="_blank"><img src="../assets/beforeTheCoffee.jpg" class="d-block w-100" alt="..."></a>
+              <div class="carousel-caption d-none d-md-block">
+                
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div> <br>
+      <p class="text-center fw-bold">Thanks for always taking my recs into consideration 
+        and coming back to me with honest feedback!</p>
+    </section>
+
+    <!--Contact-->
+    <section id="Contact">
+      <div class="container-lg text-center ">
+        <div class="row justify-content-center align-items-center ">
+          <div class="col-4 text-center d-none d-md-block">
+            <img src="../assets/readingspace.jpg" class="img-fluid" alt="">
+          </div>
+          
+          <div class="col-8 text-center ">
+            <h1 class="custom-heading1">Hello</h1>
+            <h1 class="custom-heading2">There!</h1> <br>  
+            <p class="custom-paragraph" > If you want to contact me whether to have a chat, discussion or complain about something in the blog: You’re free and welcome to do so! </p>
+            <img src="../assets/bokrecs-removebg-preview.png" alt="" class="img-fluid" width="150px"> <br> 
+            <p class="custom-paragraph">You’re also welcome to recommend books to read or review!
+              Although you might want to know that I only read fiction, I don’t like crime books. <br> Otherwise, hit me! </p>
+              <h5 class="custom-h5">You may click on this button to reach me via mail:</h5>
+              <a href="mailto:souhachriki@gmail.com"><img src="../assets/contact-us-removebg-preview.png"  class="img-fluid" width="150px" alt=""></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+</body>
+</html>

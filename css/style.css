@@ -1,0 +1,126 @@
+body{
+    background-color: #FAF6F1;
+}
+header{
+    margin-bottom: 20px;
+}
+section{
+    padding: 50px 0;
+}
+.custom-navbar {
+    background-color: #FED5FF !important;  /*customizing bg color for navbar*/
+    color: rgb(228, 71, 71);
+}
+.custom-heading{
+    color: #C488E2 ;
+    font-family: "Knewave", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.custom-h6{
+    color:#D786A5 ;
+}
+.custom-paragraph{
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+    font-style: itali  ; 
+}
+.custom-button{
+  background-color: #C488E2; /* Custom background color */
+  color: white; /* Text color */
+  font-size: 1.2rem; /* Increase text size */
+  padding: 10px 20px; /* Add padding */
+  border: 2px solid #FAF6F1; /* Border matching the background */
+  border-radius: 10px; /* Rounded corners */
+  transition: all 0.3s ease; /* Smooth hover effect */
+  font-weight: bold;
+}
+.custom-button:hover {
+    background-color: #D786A5; /* Darker shade on hover */
+    color: #a031aa; /* Purple text on hover */
+    border-color: #D786A5; /* Border matches hover background */
+  }
+  .custom-button2{
+background-color: #ab5fd1; 
+  color: white; 
+  font-size: 1.2rem; 
+  padding: 10px 20px; 
+  border: 2px solid #FAF6F1; 
+  border-radius: 10px; 
+  transition: all 0.3s ease; 
+  font-weight: bold;
+  }
+  .custom-button2:hover {
+    background-color: #bb6b89; /* Darker shade on hover */
+    color: #a031aa; /* Purple text on hover */
+    border-color: #bb6b89; /* Border matches hover background */
+  }
+  .row{
+    margin: 30px;
+  }
+  #Blog {
+    background-color: #FED5FF;
+  }
+  .togg-color{
+    color: #a031aa;
+  }
+.custom-h5{
+    color: #da72ab;
+    font-style: italic;
+} 
+.custom-heading1{
+    color:#6e0f2d;
+    padding-left: 20px;
+    margin-bottom: 0px;
+    font-family: "Knewave", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+    
+.custom-heading2{
+    margin-top: 0px;
+    color: #d7a091;
+    font-size:45px;
+    font-family: "Knewave", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#carouselExampleCaptions {
+  max-width: 250px; /* Adjust width as needed */
+  margin: 0 auto; /* Centers the carousel horizontally */
+}
+.texth2{
+  font-size: 15px;
+}
+#Reviews {
+  background-color: #FED5FF;
+}
+
+/* the reason I chose this font for this section us so that it resembles writing in a diary*/
+#Reviews h5 {
+  font-family: "Sofia", sans-serif;
+}
+#Reviews p {
+  font-family: "Sofia", sans-serif;
+}
+#Contact{
+  background-color: #FED5FF;
+}
+.main-characters{
+  
+  font-family: "Parkinsans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  
+}
+.logo-txt{
+  font-family: "Freeman", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h2, h3{
+  font-family: "Andika", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}

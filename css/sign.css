@@ -1,0 +1,69 @@
+body{
+    background-color: #FAF6F1;
+}
+header{
+    margin-bottom: 110px;
+}
+
+.custom-navbar {
+    background-color: #FED5FF !important;  /*customizing bg color for navbar*/
+    color: rgb(228, 71, 71);
+}
+.custom-button{
+    background-color: #C488E2; /* Custom background color */
+    color: white; /* Text color */
+    font-size: 1.2rem; /* Increase text size */
+    padding: 10px 20px; /* Add padding */
+    border: 2px solid #FAF6F1; /* Border matching the background */
+    border-radius: 10px; /* Rounded corners */
+    transition: all 0.3s ease; /* Smooth hover effect */
+    font-weight: bold;
+  }
+  .custom-button:hover {
+      background-color: #FED5FF; /* Darker shade on hover */
+      color: #a031aa; /* Gold text on hover */
+      border-color: #FED5FF; /* Border matches hover background */
+    }
+    .form-label {
+        color: #000000; 
+        font-size: 1.1rem; 
+        font-weight: bold; 
+      }
+      form {
+        
+        background-color: #C488E2; 
+        padding: 20px; 
+        border-radius: 5px; 
+        
+      }
+      .form-text{
+        color: white;
+      }
+      .togg-color{
+        color: #a031aa;
+      }
+      /*styling the welcome msg Login and Sign in from chatGpt*/
+      #welcomeMessage {
+        display: none; /* Hidden by default */
+        background-color: #FED5FF; /* Light pink background */
+        border: 2px solid #a031aa; /* Purple border */
+        color: #a031aa; /* Text color matching the border */
+        font-size: 1.5rem; /* Adjust font size */
+        padding: 20px; /* Add spacing */
+        border-radius: 10px; /* Rounded corners */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow */
+        text-align: center; /* Center-align text */
+        margin-top: 20px; /* Add spacing at the top */
+        animation: fadeIn 1s ease-in-out; /* Fade-in effect */
+    }
+    
+    /* Animation for fade-in effect */
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+    
