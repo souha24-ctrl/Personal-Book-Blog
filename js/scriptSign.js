@@ -34,7 +34,7 @@ document.getElementById("loginForm").addEventListener("submit", function (event)
 
     // Redirect to the blog section after 3 seconds
     setTimeout(() => {
-        window.location.href = "index.html#Blog";
+        window.location.href = "../index.html#Blog";
     }, 3000);
     
     
